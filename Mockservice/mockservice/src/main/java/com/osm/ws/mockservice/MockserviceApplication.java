@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.ws.mockservice;
+package com.osm.ws.mockservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

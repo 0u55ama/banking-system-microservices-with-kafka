@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.ws.mockservice;
+package com.osm.ws.mockservice;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

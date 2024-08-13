@@ -1,18 +1,17 @@
-package com.appsdeveloperblog.payments.ws.core.events;
+package com.osm.payments.ws.core.events;
 
 import java.math.BigDecimal;
 
-public class DepositRequestedEvent {
-    
+public class WithdrawalRequestedEvent {
     private String senderId;
     private String recepientId;
     private BigDecimal amount;
 
-    public DepositRequestedEvent() {
+    public WithdrawalRequestedEvent() {
 
     }
 
-    public DepositRequestedEvent(String senderId, String recepientId, BigDecimal amount) {
+    public WithdrawalRequestedEvent(String senderId, String recepientId, BigDecimal amount) {
         this.senderId = senderId;
         this.recepientId = recepientId;
         this.amount = amount;

@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.payments.ws.core.error;
+package com.osm.payments.ws.core.error;
 
 public class NotRetryableException extends RuntimeException {
     public NotRetryableException(Exception exception) {

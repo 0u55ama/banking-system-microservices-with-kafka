@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.ws.mockservice;
+package com.osm.ws.mockservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
